@@ -1,0 +1,18 @@
+/* Estilo para la barra de navegación */
+.navbar {
+    background-color: #333; /* Color de fondo */
+    font-family: Arial, sans-serif; /* Fuente */
+    color: #fff; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+}
+
+/* Estilo para la marca (logo) */
+
+
+/* Estilo para los enlaces de la barra de navegación */
+.navbar a.navbar-link {
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    padding: 10px 50px; /* Espaciado interno */
+}
+

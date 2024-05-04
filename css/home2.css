@@ -1,0 +1,73 @@
+/* Estilos personalizados */
+.title2 {
+    color: #dd4b39; /* Color del título */
+    font-size: 36px; /* Tamaño de fuente del título */
+    margin-top: 40px; /* Margen superior */
+}
+
+/* Si prefieres utilizar clases de Bulma para estilizar */
+.container {
+    margin-top: 40px; /* Margen superior */
+}
+
+.title {
+    color: #dd4b39; /* Color del título */
+    font-size: 48px; /* Tamaño de fuente del título */
+    font-weight: bold; /* Añadir negrita */
+    text-align: center; /* Centrar el texto */
+}
+
+.subtitle {
+    color: #333; /* Color del subtítulo */
+    font-size: 24px; /* Tamaño de fuente del subtítulo */
+    text-align: center; /* Centrar el texto */
+}
+
+
+/* Estilos modernos para el segundo contenedor */
+.my-container {
+    background-color: #333; /* Color de fondo oscuro */
+    color: #fff; /* Color del texto blanco */
+    border-radius: 10px; /* Borde redondeado */
+    padding: 20px; /* Espaciado interno */
+    margin-top: 20px; /* Margen superior */
+    background-image: linear-gradient(to bottom, #333 0%, #f8f6f6 100%); /* Degradado de negro a rojo oscuro */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5); /* Sombra */
+}
+
+.my-container h1 {
+    color: #dc3545; /* Color rojo oscuro */
+    font-size: 48px; /* Aumentar tamaño de fuente */
+    font-weight: bold; /* Añadir negrita */
+    text-align: center; /* Centrar el texto */
+    animation: titulo_brillo 2s infinite; /* Animación de brillo */
+}
+
+.my-container p {
+    text-align: justify; /* Justificar el texto */
+}
+
+.my-container img {
+    width: 60%; /* Reducir el ancho a 60% */
+    margin: 20px auto; /* Centrar la imagen con auto */
+    border: 4px solid #000000; /* Borde rojo oscuro de 4px */
+    transition: transform 0.3s; /* Transición suave para el efecto de zoom */
+}
+
+/* Efecto de zoom al pasar el mouse sobre la imagen */
+.my-container img:hover {
+    transform: scale(1.05); /* Aumentar tamaño al pasar el mouse */
+}
+
+/* Animación de brillo al pasar el mouse sobre el título principal */
+@keyframes titulo_brillo {
+    0% {
+        color: #dc3545;
+    }
+    50% {
+        color: #fff;
+    }
+    100% {
+        color: #dc3545;
+    }
+}
